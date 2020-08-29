@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  db-provider:
+    image: postgres:11.7
+    container_name: todo_db_local
+    ports:
+      - "5556:5432"
+    environment:
+      - POSTGRES_USER=todo-user
+      - POSTGRES_PASSWORD=secret
+      - POSTGRES_DB=todo_db_local
+      - POSTGRES_HOSTNAME=localhost
