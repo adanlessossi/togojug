@@ -1,4 +1,4 @@
-import {Moment} from 'moment';
+import { Moment } from 'moment';
 import {Observable} from 'rxjs';
 
 // tslint:disable-next-line:no-namespace
